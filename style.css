@@ -51,7 +51,13 @@ a{
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    padding: 20px;
+    position: fixed; 
+    background-color: #fff;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    opacity: 0.8;
 }
 .header .logo{
     display: flex;
@@ -86,7 +92,7 @@ a{
 .splash h1{
     position: absolute;
     left: 100px;
-    top: 330px;
+    top: 380px;
     color: #fff;
 }
 .read-about-us{
