@@ -1,0 +1,124 @@
+/*  global  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Inter;
+    src: url("font/Inter-Regular.woff2");
+}
+h1{
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 88px;
+}
+h2{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #242a2e;
+}
+h3{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+    color: grey;
+}
+p{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+li{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+
+}
+a{
+    text-decoration: none;
+    font-family: Inter;
+}
+
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.header .logo{
+    display: flex;
+
+}
+.header .menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+.header #logo{
+    height: 35px;
+}
+.header .navigation{
+    display: flex;
+}
+.header .navigation a{
+    text-decoration: none;
+    color: rgb(54, 58, 69);
+    display: block;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.splash video{
+    width: 100%;
+}
+.splash{
+    position: relative;
+}
+.splash h1{
+    position: absolute;
+    left: 100px;
+    top: 330px;
+    color: #fff;
+}
+.read-about-us{
+    background-color: #082c24;
+    padding: 30px 120px;
+}
+.download-app{
+    background-color: #08b44c;
+    padding: 30px 120px;
+}
+.read-about-us a, .download-app a{
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #fff;
+}
+.service h2{
+    width: 40%;
+    margin: 50px 0 120px 90px;
+}
+.service .service-options{
+    display: flex;
+    margin-left: 90px;
+
+}
+.service .service-options a{
+    display: block;
+    padding: 20px 40px;
+    color: #fff;
+    background-color: #082c24;
+    margin-right: 30px;
+    border: 1px solid #082c24;
+    border-radius: 60px;
+}
