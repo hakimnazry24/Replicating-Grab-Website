@@ -180,5 +180,43 @@ a{
     margin: auto;
     margin-top: 70px;
 }
+.footer{
+    padding: 40px 20px;
+    background-color: #f0ecf4;
+    margin-top: 50px;
+}
+.footer-top{
+    display: flex;
+    gap: 40px;
+
+}
+.footer-top .footer-lists{
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+.footer-top h3{
+    margin: 10px 0 20px 0;
+}
+.footer-top .related-information p{
+    line-height: 2;
+}
+.footer-top i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.footer-lists li{
+    list-style: none;
+    line-height: 2;
+}
+.footer-bottom img{
+    height: 40px;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    background-color: #383c44;
+}
 
 
