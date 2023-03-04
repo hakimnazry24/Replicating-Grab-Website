@@ -149,3 +149,36 @@ a{
 .service .service-content p{
     margin-top: 6px;
 }
+.newsroom .newsroom-container{
+    margin: 0 170px ;
+}
+.newsroom h2{
+    margin-bottom: 20px;
+}
+.newsroom .newsroom-contents{
+    display:flex;
+    gap: 20px;
+}
+.newsroom img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;  
+}
+.newsroom .date{
+    margin: 15px 0;
+}
+.newsroom .read-more{
+    margin-top: 20px;
+}
+
+.newsroom #more-news-button{
+    display: block;
+    border: 1px solid #082c24;
+    width: 250px;
+    text-align: center;
+    padding: 20px 10px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+
